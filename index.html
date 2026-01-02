@@ -14,6 +14,417 @@
 </head>
 <body>
     <!-- Navigation -->
-    ...
+    <nav class="navbar" id="navbar">
+        <div class="nav-container container">
+            <a href="#home" class="logo">AR</a>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#home" class="nav-link active">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Experience</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#skills" class="nav-link">Skills</a></li>
+                <li><a href="#contact" class="nav-link">Contact</a></li>
+                <li>
+                    <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme">
+                        <span class="theme-icon sun">☀️</span>
+                        <span class="theme-icon moon">🌙</span>
+                    </button>
+                </li>
+            </ul>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Toggle menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-container container">
+            <div class="hero-content">
+                <p class="hero-greeting">Hi there! 👋</p>
+                <h1 class="hero-title">I'm Amarjith Raj</h1>
+                <h2 class="hero-subtitle">Frontend Developer</h2>
+                <p class="hero-description">
+                    Crafting exceptional digital experiences with Angular, RxJs, and modern web technologies. 
+                    Passionate about clean code, innovative solutions, and continuous learning.
+                </p>
+                <div class="hero-cta">
+                    <a href="#contact" class="btn btn-primary">Get In Touch</a>
+                    <a href="#projects" class="btn btn-secondary">View Projects</a>
+                </div>
+                <div class="hero-social">
+                    <a href="https://github.com/amarjith67" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                        <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                    </a>
+                    <a href="https://linkedin.com/in/amarjith" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+                        <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                    </a>
+                    <a href="mailto:amarjithraj67@gmail.com" aria-label="Email">
+                        <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="M0 3v18h24v-18h-24zm21.518 2l-9.518 7.713-9.518-7.713h19.036zm-19.518 14v-11.817l10 8.104 10-8.104v11.817h-20z"/></svg>
+                    </a>
+                    <a href="tel:+918943226768" aria-label="Phone">
+                        <svg width="24" height="24" fill="currentColor" viewBox="0 0 24 24"><path d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z"/></svg>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <div class="profile-circle">
+                    <div class="profile-placeholder">
+                        <img src="profile.jpg" alt="A R Amarjith Raj - Frontend Developer">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <span class="scroll-text">Scroll Down</span>
+            <span class="scroll-arrow">↓</span>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-content">
+                <div class="about-text">
+                    <p class="about-intro">
+                        Hello! I'm Amarjith Raj, a passionate Frontend Developer with a strong foundation in Angular and modern web technologies.
+                    </p>
+                    <p>
+                        I graduated from Federal Institute of Science and Technology with an impressive 8.85 CGPA, where I developed 
+                        a deep understanding of computer science fundamentals and software engineering principles.
+                    </p>
+                    <p>
+                        Currently, I'm leveraging my expertise in Angular, RxJs, and TypeScript to build robust, scalable web applications. 
+                        I believe in writing clean, maintainable code and staying updated with the latest industry trends and best practices.
+                    </p>
+                    <p>
+                        Beyond coding, I'm enthusiastic about problem-solving, learning emerging technologies, and contributing to 
+                        innovative projects that make a real impact.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <span class="highlight-number">2.4+</span>
+                            <span class="highlight-label">Years Experience</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="highlight-number">8.85</span>
+                            <span class="highlight-label">CGPA</span>
+                        </div>
+                        <div class="highlight-item">
+                            <span class="highlight-number">10+</span>
+                            <span class="highlight-label">Technologies</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-details">
+                    <h3 class="about-subtitle">Quick Facts</h3>
+                    <ul class="facts-list">
+                        <li><strong>Name:</strong> A R Amarjith Raj</li>
+                        <li><strong>Location:</strong> Chennai, India</li>
+                        <li><strong>Education:</strong> B.Tech in Computer Science</li>
+                        <li><strong>Institution:</strong> Federal Institute of Science and Technology</li>
+                        <li><strong>Specialization:</strong> Frontend Development</li>
+                        <li><strong>Languages:</strong> English, Malayalam, Hindi</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section class="experience" id="experience">
+        <div class="container">
+            <h2 class="section-title">Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header">
+                            <div>
+                                <h3 class="timeline-title">Software Engineer</h3>
+                                <p class="timeline-company">Applied Materials</p>
+                                <p class="timeline-location">Chennai, India</p>
+                            </div>
+                            <span class="timeline-date">Feb 2022 - Present</span>
+                        </div>
+                        <ul class="timeline-achievements">
+                            <li>Developed and maintained enterprise-level web applications using Angular, RxJs, and TypeScript</li>
+                            <li>Implemented responsive UI components following modern design patterns and best practices</li>
+                            <li>Collaborated with cross-functional teams to deliver high-quality software solutions</li>
+                            <li>Optimized application performance and improved user experience through code refactoring</li>
+                            <li>Participated in code reviews and mentored junior developers on frontend technologies</li>
+                            <li>Integrated RESTful APIs and managed application state effectively using RxJs</li>
+                        </ul>
+                        <div class="timeline-tech">
+                            <span class="tech-tag">Angular</span>
+                            <span class="tech-tag">RxJs</span>
+                            <span class="tech-tag">TypeScript</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3/SCSS</span>
+                            <span class="tech-tag">REST APIs</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">MedPharma Connect</h3>
+                        <span class="project-date">2021</span>
+                    </div>
+                    <p class="project-description">
+                        A comprehensive healthcare platform connecting patients with pharmacies and medical services, 
+                        streamlining medicine ordering and health management.
+                    </p>
+                    <ul class="project-features">
+                        <li>Real-time medicine availability tracking across multiple pharmacies</li>
+                        <li>Secure user authentication and prescription management</li>
+                        <li>Integrated payment gateway for seamless transactions</li>
+                        <li>Admin dashboard for inventory and order management</li>
+                        <li>Responsive design for mobile and desktop platforms</li>
+                    </ul>
+                    <div class="project-tech">
+                        <span class="tech-tag">Django</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">MySQL</span>
+                        <span class="tech-tag">HTML5</span>
+                        <span class="tech-tag">CSS3</span>
+                        <span class="tech-tag">JavaScript</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-header">
+                        <h3 class="project-title">Fake Product Detection System</h3>
+                        <span class="project-date">2020</span>
+                    </div>
+                    <p class="project-description">
+                        An innovative blockchain-based solution for authenticating products and combating counterfeit goods 
+                        in the supply chain using IoT integration.
+                    </p>
+                    <ul class="project-features">
+                        <li>Blockchain technology for immutable product authentication</li>
+                        <li>IoT sensor integration for real-time tracking</li>
+                        <li>QR code scanning for instant product verification</li>
+                        <li>Manufacturer and consumer portals with role-based access</li>
+                        <li>Supply chain transparency and traceability features</li>
+                    </ul>
+                    <div class="project-tech">
+                        <span class="tech-tag">Blockchain</span>
+                        <span class="tech-tag">IoT</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Flask</span>
+                        <span class="tech-tag">Node.js</span>
+                        <span class="tech-tag">MongoDB</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section with Icons -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">Skills & Technologies</h2>
+            <div class="skills-container">
+                <!-- Frontend Skills with Icons -->
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Frontend Development</h3>
+                    <div class="skill-icons-grid">
+                        <div class="skill-icon-card" title="Angular">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" alt="Angular">
+                        </div>
+                        <div class="skill-icon-card" title="TypeScript">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" alt="TypeScript">
+                        </div>
+                        <div class="skill-icon-card" title="JavaScript">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+                        </div>
+                        <div class="skill-icon-card" title="HTML5">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
+                        </div>
+                        <div class="skill-icon-card" title="CSS3">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3">
+                        </div>
+                        <div class="skill-icon-card" title="Sass">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg" alt="Sass">
+                        </div>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">RxJs</span>
+                    </div>
+                </div>
+
+                <!-- Backend Skills with Icons -->
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Backend Development</h3>
+                    <div class="skill-icons-grid">
+                        <div class="skill-icon-card" title="Node.js">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js">
+                        </div>
+                        <div class="skill-icon-card" title="Spring Boot">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring Boot">
+                        </div>
+                        <div class="skill-icon-card" title="Django">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/django/django-plain.svg" alt="Django">
+                        </div>
+                        <div class="skill-icon-card" title="MySQL">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL">
+                        </div>
+                        <div class="skill-icon-card" title="MongoDB">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Programming Languages with Icons -->
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Programming Languages</h3>
+                    <div class="skill-icons-grid">
+                        <div class="skill-icon-card" title="Python">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+                        </div>
+                        <div class="skill-icon-card" title="Java">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java">
+                        </div>
+                        <div class="skill-icon-card" title="C">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C">
+                        </div>
+                        <div class="skill-icon-card" title="C++">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="C++">
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Mobile & Emerging Tech with Icons -->
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Mobile & Emerging Tech</h3>
+                    <div class="skill-icons-grid">
+                        <div class="skill-icon-card" title="Flutter">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter">
+                        </div>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Blockchain</span>
+                        <span class="skill-tag">IoT</span>
+                    </div>
+                </div>
+
+                <!-- Testing & DevOps with Icons -->
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Testing & DevOps</h3>
+                    <div class="skill-icons-grid">
+                        <div class="skill-icon-card" title="Selenium">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/selenium/selenium-original.svg" alt="Selenium">
+                        </div>
+                        <div class="skill-icon-card" title="Jenkins">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jenkins/jenkins-original.svg" alt="Jenkins">
+                        </div>
+                        <div class="skill-icon-card" title="Git">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+                        </div>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">Playwright</span>
+                    </div>
+                </div>
+
+                <!-- Tools & Platforms with Icons -->
+                <div class="skill-category">
+                    <h3 class="skill-category-title">Tools & Platforms</h3>
+                    <div class="skill-icons-grid">
+                        <div class="skill-icon-card" title="VS Code">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" alt="VS Code">
+                        </div>
+                        <div class="skill-icon-card" title="Docker">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker">
+                        </div>
+                        <div class="skill-icon-card" title="Jira">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jira/jira-original.svg" alt="Jira">
+                        </div>
+                        <div class="skill-icon-card" title="Figma">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma">
+                        </div>
+                    </div>
+                    <div class="skill-tags">
+                        <span class="skill-tag">REST APIs</span>
+                        <span class="skill-tag">Agile</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Get In Touch</h2>
+            <div class="contact-content">
+                <p class="contact-intro">
+                    I'm always interested in hearing about new opportunities, collaborations, or just having a chat 
+                    about technology and development. Feel free to reach out through any of the channels below!
+                </p>
+                <div class="contact-methods">
+                    <a href="mailto:amarjithraj67@gmail.com" class="contact-card">
+                        <div class="contact-icon">
+                            <svg width="32" height="32" fill="currentColor" viewBox="0 0 24 24"><path d="M0 3v18h24v-18h-24zm21.518 2l-9.518 7.713-9.518-7.713h19.036zm-19.518 14v-11.817l10 8.104 10-8.104v11.817h-20z"/></svg>
+                        </div>
+                        <div class="contact-info">
+                            <h3>Email</h3>
+                            <p>amarjithraj67@gmail.com</p>
+                        </div>
+                    </a>
+                    <a href="https://linkedin.com/in/amarjith" target="_blank" rel="noopener noreferrer" class="contact-card">
+                        <div class="contact-icon">
+                            <svg width="32" height="32" fill="currentColor" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/></svg>
+                        </div>
+                        <div class="contact-info">
+                            <h3>LinkedIn</h3>
+                            <p>linkedin.com/in/amarjith</p>
+                        </div>
+                    </a>
+                    <a href="https://github.com/amarjith67" target="_blank" rel="noopener noreferrer" class="contact-card">
+                        <div class="contact-icon">
+                            <svg width="32" height="32" fill="currentColor" viewBox="0 0 24 24"><path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/></svg>
+                        </div>
+                        <div class="contact-info">
+                            <h3>GitHub</h3>
+                            <p>github.com/amarjith67</p>
+                        </div>
+                    </a>
+                    <a href="tel:+918943226768" class="contact-card">
+                        <div class="contact-icon">
+                            <svg width="32" height="32" fill="currentColor" viewBox="0 0 24 24"><path d="M20 22.621l-3.521-6.795c-.008.004-1.974.97-2.064 1.011-2.24 1.086-6.799-7.82-4.609-8.994l2.083-1.026-3.493-6.817-2.106 1.039c-7.202 3.755 4.233 25.982 11.6 22.615.121-.055 2.102-1.029 2.11-1.033z"/></svg>
+                        </div>
+                        <div class="contact-info">
+                            <h3>Phone</h3>
+                            <p>+91 894 322 6768</p>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 A R Amarjith Raj. All rights reserved.</p>
+            <p class="footer-tagline">Crafted with passion and precision</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
 </html>
