@@ -64,6 +64,7 @@
 html {
     scroll-behavior: smooth;
     font-size: 16px;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 body {
@@ -72,6 +73,7 @@ body {
     color: var(--text-primary);
     background-color: var(--bg-primary);
     overflow-x: hidden;
+    transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 .container {
@@ -82,6 +84,7 @@ body {
 
 section {
     padding: 5rem 0;
+    transition: background-color 0.3s ease;
 }
 
 .section-title {
@@ -249,12 +252,15 @@ section {
     font-weight: 700;
     margin-bottom: 0.5rem;
     line-height: 1.2;
+    color: var(--text-primary);
+    transition: color 0.3s ease;
 }
 
 .hero-subtitle {
     font-size: 2rem;
     color: var(--text-secondary);
     margin-bottom: 1.5rem;
+    transition: color 0.3s ease;
 }
 
 .hero-description {
@@ -262,6 +268,7 @@ section {
     color: var(--text-muted);
     margin-bottom: 2rem;
     max-width: 550px;
+    transition: color 0.3s ease;
 }
 
 .hero-cta {
@@ -295,6 +302,7 @@ section {
     background: transparent;
     color: var(--text-primary);
     border: 2px solid var(--border-color);
+    transition: all 0.3s ease;
 }
 
 .btn-secondary:hover {
@@ -355,6 +363,7 @@ section {
     align-items: center;
     justify-content: center;
     overflow: hidden;
+    transition: background-color 0.3s ease;
 }
 
 .profile-placeholder img {
@@ -374,6 +383,7 @@ section {
     gap: 0.5rem;
     color: var(--text-secondary);
     animation: bounce 2s infinite;
+    transition: color 0.3s ease;
 }
 
 @keyframes bounce {
@@ -396,12 +406,14 @@ section {
     margin-bottom: 1.5rem;
     color: var(--text-secondary);
     line-height: 1.8;
+    transition: color 0.3s ease;
 }
 
 .about-intro {
     font-size: 1.25rem;
     color: var(--text-primary);
     font-weight: 500;
+    transition: color 0.3s ease;
 }
 
 .about-highlights {
@@ -439,6 +451,7 @@ section {
 .highlight-label {
     color: var(--text-secondary);
     font-size: 0.875rem;
+    transition: color 0.3s ease;
 }
 
 .about-details {
@@ -446,6 +459,7 @@ section {
     padding: 2rem;
     border-radius: 12px;
     border: 1px solid var(--border-color);
+    transition: all 0.3s ease;
 }
 
 .about-subtitle {
@@ -462,6 +476,7 @@ section {
     padding: 0.75rem 0;
     border-bottom: 1px solid var(--border-color);
     color: var(--text-secondary);
+    transition: all 0.3s ease;
 }
 
 .facts-list li:last-child {
@@ -470,6 +485,7 @@ section {
 
 .facts-list strong {
     color: var(--text-primary);
+    transition: color 0.3s ease;
 }
 
 /* Experience Section */
@@ -511,6 +527,7 @@ section {
     padding: 2rem;
     border-radius: 12px;
     border: 1px solid var(--border-color);
+    transition: all 0.3s ease;
 }
 
 .timeline-header {
@@ -524,6 +541,7 @@ section {
     font-size: 1.5rem;
     color: var(--text-primary);
     margin-bottom: 0.5rem;
+    transition: color 0.3s ease;
 }
 
 .timeline-company {
@@ -535,12 +553,14 @@ section {
 .timeline-location {
     color: var(--text-secondary);
     font-size: 0.875rem;
+    transition: color 0.3s ease;
 }
 
 .timeline-date {
     color: var(--text-secondary);
     font-size: 0.875rem;
     white-space: nowrap;
+    transition: color 0.3s ease;
 }
 
 .timeline-achievements {
@@ -552,6 +572,7 @@ section {
     padding: 0.5rem 0 0.5rem 1.5rem;
     color: var(--text-secondary);
     position: relative;
+    transition: color 0.3s ease;
 }
 
 .timeline-achievements li::before {
@@ -575,6 +596,7 @@ section {
     border-radius: 6px;
     font-size: 0.875rem;
     border: 1px solid var(--border-color);
+    transition: all 0.3s ease;
 }
 
 /* Projects Section */
@@ -611,17 +633,20 @@ section {
 .project-title {
     font-size: 1.5rem;
     color: var(--text-primary);
+    transition: color 0.3s ease;
 }
 
 .project-date {
     color: var(--text-secondary);
     font-size: 0.875rem;
+    transition: color 0.3s ease;
 }
 
 .project-description {
     color: var(--text-secondary);
     margin-bottom: 1.5rem;
     line-height: 1.8;
+    transition: color 0.3s ease;
 }
 
 .project-features {
@@ -634,6 +659,7 @@ section {
     color: var(--text-secondary);
     position: relative;
     font-size: 0.9rem;
+    transition: color 0.3s ease;
 }
 
 .project-features li::before {
@@ -661,6 +687,7 @@ section {
     padding: 2rem;
     border-radius: 12px;
     border: 1px solid var(--border-color);
+    transition: all 0.3s ease;
 }
 
 .skill-category-title {
@@ -738,6 +765,7 @@ section {
     max-width: 700px;
     margin: 0 auto 3rem;
     font-size: 1.125rem;
+    transition: color 0.3s ease;
 }
 
 .contact-methods {
@@ -789,6 +817,7 @@ section {
     color: var(--text-primary);
     margin-bottom: 0.375rem;
     font-weight: 600;
+    transition: color 0.3s ease;
 }
 
 .contact-info p {
@@ -797,6 +826,7 @@ section {
     word-break: break-word;
     overflow-wrap: break-word;
     line-height: 1.4;
+    transition: color 0.3s ease;
 }
 
 /* Footer */
@@ -805,16 +835,19 @@ section {
     padding: 2rem 0;
     text-align: center;
     border-top: 1px solid var(--border-color);
+    transition: all 0.3s ease;
 }
 
 .footer p {
     color: var(--text-secondary);
     margin-bottom: 0.5rem;
+    transition: color 0.3s ease;
 }
 
 .footer-tagline {
     color: var(--text-muted);
     font-size: 0.875rem;
+    transition: color 0.3s ease;
 }
 
 /* Responsive Design */
